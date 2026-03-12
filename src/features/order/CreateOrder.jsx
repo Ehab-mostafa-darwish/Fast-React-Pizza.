@@ -96,7 +96,7 @@ function CreateOrder() {
               </p>
             )}
           </div>
-          {!position.lattitude &&!position.longitude && (<span className='absolute z-50 right-[3px] top-[3px] md:top-[5px] md:right-[5px]'>
+          {!position.lattitude &&!position.longitude && (<span className='absolute z-50 right-[3px] top-[35px] sm:top-[3px] sm:right-[5px] '>
           <Button disabled={isLoadingAddress} type='small' onClick={(e)=>{ e.preventDefault();dispatch(fetchAddress())}}>use your location</Button>
           </span>)}
         </div>
