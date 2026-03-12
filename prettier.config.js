@@ -1,0 +1,6 @@
+export default {
+  plugins: [import('prettier-plugin-tailwindcss')],
+  semi: true,
+  singleQuote: true,
+  printWidth: 80,
+};
